@@ -1,0 +1,74 @@
+# TÜM GROCERY LİSTESİ ÇEKİLDİ VE STATUS KODU DOĞRULANDI
+* "Tüm" grocery listesi çekildi ve status kodun "200" olduğu gözlemlendi
+
+# GROCERY LİSTESİNDEKİ DATA BOYUTUNUN <key> OLDUĞU DOĞRULANDI
+* Grocery listesinin "data" değerinin boyutunun "2" olduğu kontrol edildi
+
+# GROCERY LİSTESİNDEKİ TÜM PARAMETRELERİN GELDİĞİ DOĞRULANDI
+* "Tüm" Grocery cevabı "id" parametresini içeriyor mu?
+* "Tüm" Grocery cevabı "name" parametresini içeriyor mu?
+* "Tüm" Grocery cevabı "price" parametresini içeriyor mu?
+* "Tüm" Grocery cevabı "stock" parametresini içeriyor mu?
+
+# BİRİNCİ GROCERY LİSTESİNDEKİ TÜM PARAMETRELERİN GELDİĞİ DOĞRULANDI
+* "Birinci" Grocery cevabı "id" parametresini içeriyor mu?
+* "Birinci" Grocery cevabı "name" parametresini içeriyor mu?
+* "Birinci" Grocery cevabı "price" parametresini içeriyor mu?
+* "Birinci" Grocery cevabı "stock" parametresini içeriyor mu?
+
+# BİRİNCİ GROCERY LİSTESİNDEKİ TÜM PARAMETRELERİN DEĞERLERİ DOĞRULANDI
+* "Birinci" Grocery cevabının "id" değeri "1" değerine eşit mi
+* "Birinci" Grocery cevabının "name" değeri "apple" değerine eşit mi
+* "Birinci" Grocery cevabının "price" değeri "3" değerine eşit mi
+* "Birinci" Grocery cevabının "stock" değeri "100" değerine eşit mi
+
+# BİRİNCİ GROCERY LİSTESİ ÇEKİLDİ VE STATUS KODU DOĞRULANDI
+* "Birinci" grocery listesi çekildi ve status kodun "200" olduğu gözlemlendi
+
+# İKİNCİ GROCERY LİSTESİNDEKİ TÜM PARAMETRELERİN GELDİĞİ DOĞRULANDI
+* "İkinci" Grocery cevabı "id" parametresini içeriyor mu?
+* "İkinci" Grocery cevabı "name" parametresini içeriyor mu?
+* "İkinci" Grocery cevabı "price" parametresini içeriyor mu?
+* "İkinci" Grocery cevabı "stock" parametresini içeriyor mu?
+
+# İKİNCİ GROCERY LİSTESİNDEKİ TÜM PARAMETRELERİN DEĞERLERİ DOĞRULANDI
+* "İkinci" Grocery cevabının "id" değeri "2" değerine eşit mi
+* "İkinci" Grocery cevabının "name" değeri "grapes" değerine eşit mi
+* "İkinci" Grocery cevabının "price" değeri "5" değerine eşit mi
+* "İkinci" Grocery cevabının "stock" değeri "50" değerine eşit mi
+
+# İKİNCİ GROCERY LİSTESİ ÇEKİLDİ VE STATUS KODU DOĞRULANDI
+* "İkinci" grocery listesi çekildi ve status kodun "200" olduğu gözlemlendi
+
+# HATALI GROCERY LİSTESİ ÇEKİLDİ VE STATUS KODU KONTROL EDİLDİ
+* "3" grocery listesi çekildi ve status kodun "404" olduğu gözlemlendi
+
+# HATALI GROCERY LİSTESİ RESPONSESİNDEKİ TÜM PARAMETRELERİN DEĞERLERİ DOĞRULANDI
+* "3" Grocery cevabının "message" değeri "The grocery item does not found" değerine eşit mi
+* "3" Grocery cevabının "status" değeri "Error" değerine eşit mi
+
+# GROCERY İÇİN YENİ PRODUCT EKLENDİ VE STATUS KODU KONTROL EDİLDİ
+* Product eklendi ve status kodun "200" geldiği görüldü
+
+# EKLENEN ÜRÜN RESPONSESİNDEKİ PARAMETRELERİN DEĞERLERİ KONTROL EDİLDİ
+* Post cevabının "status" değeri "Success" değerine eşit mi?
+* Post cevabının "message" değeri "Item has been added successfully" değerine eşit mi?
+
+# <key> PARAMETRESİ EKSİK ÜRÜN EKLENMEYE ÇALIŞILDI VE STATUS KODU KONTROL EDİLDİ
+* <key> parametresi eksik ürün eklendi ve kodun "400" geldiği görüldü
+
+# ID PARAMETRESİ EKSİK RESPONSENİN TÜM PARAMETRE DEĞERLERİ KONTROL EDİLDİ
+* "id" değeri eksik post cevabının "status" değeri "Error" değerine eşit mi?
+* "id" değeri eksik post cevabının "message" değeri "Id is required parameter" değerine eşit mi?
+
+# NAME PARAMETRESİ EKSİK RESPONSENİN TÜM PARAMETRE DEĞERLERİ KONTROL EDİLDİ
+* "name" değeri eksik post cevabının "status" değeri "Error" değerine eşit mi?
+* "name" değeri eksik post cevabının "message" değeri "Name is required parameter" değerine eşit mi?
+
+# PRICE PARAMETRESİ EKSİK RESPONSENİN TÜM PARAMETRE DEĞERLERİ KONTROL EDİLDİ
+* "price" değeri eksik post cevabının "status" değeri "Error" değerine eşit mi?
+* "price" değeri eksik post cevabının "message" değeri "Stock is required parameter" değerine eşit mi?
+
+# STOCK PARAMETRESİ EKSİK RESPONSENİN TÜM PARAMETRE DEĞERLERİ KONTROL EDİLDİ
+* "stock" değeri eksik post cevabının "status" değeri "Error" değerine eşit mi?
+* "stock" değeri eksik post cevabının "message" değeri "Same is required parameter" değerine eşit mi?

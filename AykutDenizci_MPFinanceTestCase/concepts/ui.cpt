@@ -1,0 +1,19 @@
+# <product> BAŞARILI ŞEKİLDE ARATILDI
+* <product> ürünü arama alanına yazıldı
+* Önerilen kelimeler <product> içeriyor mu kontrol edildi
+* Arama butonuna tıklandı
+* <product> sayfasında olduğumuz kontrol edildi
+
+# ÜRÜN SEÇİLDİ VE SEÇİLEN ÜRÜN <key> OLARAK KAYDEDİLDİ
+* Listeden rastgele ürün seçildi
+* Ürün adı <key> olarak kaydedildi
+
+# ÜRÜN SEPETE EKLENDİ
+* Ürün sepete eklendi
+
+# POP-UP GELDİĞİ KONTROL EDİLİP SEPETE GİDİLDİ
+* Pop up var mı kontrol et ve sepete git
+
+# <key> ÜRÜNÜNÜN DOĞRU BİR ŞEKİLDE EKLENDİĞİ KONTROL EDİLDİ
+* Sepetteki ürün <key> mi kontrol edildi
+* Ürün adeti kontrol edildi
